@@ -4,35 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GED Mathematics</title>
+    <style>
+        .boxes {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 20px;
+        }
+  
+        .box {
+          background-color: rgb(230, 237, 231);
+          color: rgb(67, 67, 238);
+          font-size: 20px;
+          padding: 30px;
+          border-radius: 20px;
+        }
+  
+        @media (max-width: 1000px) {
+          .boxes {
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+          }
+  
+          .box {
+            background: green;
+          }
+        }
+      </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>200 Marks</th>
-                <th>195 Marks</th>
-                <th>176 Marks</th>
-                <th>170 Marks</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Naw Eh Kheelar Htoo</td>
-                <td>Nan Hwel Phalone Kalar</td>
-                <td>Saw Donal Wah</td>
-                <td>Han Zar Chyi Htun</td>
-            </tr>
-            <tr>
-                <td>Saw Hsay Ki Wah</td>
-                <td>Kyi kyi Swe</td>
-                <td>Remark 2</td>
-            </tr>
-            <tr>
-                <td>Htoo Myat Kyaw</td>
-                <td>Jones</td>
-                <td>Remark 3</td>
-            </tr>
+    <div class="boxes">
+        <div class="box">
+                <div>👨🏻‍🎓200 marks💜</div>
 
-    </table>
+                <div>1.Saw Hsay Kyi Wah</div>
+                <div>2.Naw Eh Kheelar Htoo</div>
+                <div>3.Htoo Myat Kyaw</div>
+
+            
+        </div class="box">
+    </div class="boxes">
+    <div class="boxes">
+            <div class="box">
+                <div>👨🏻‍🎓195 marks🩷</div>
+
+                <div>1.Nan Kyi Kyi Shwe</div>
+                <div>2.Naw Hwel Plone Kalar</div>
+                
+
+        
+                
+            </div class="box">
+        </div class="boxes">
+            <div class="boxes">
+                <div class="box">
+                <div>💜176 marks👨🏻‍🎓</div>
+
+                <div>1.Donal Wah</div>
+            </div class="box">
+        </div class="boxes">
+            <div class="boxes">
+                <div class="box">
+                <div>💜170 marks👩🏻‍🎓</div>
+
+                <div>1.Han Zar Khyi Htun</div>
+            </div class="box">
+        </div class="boxes">
 </body>
 </html>
